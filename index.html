@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crossover</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script> -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div style="margin:30px;">
+      <h1>
+        The most ambitious crossover event in history
+      </h1>
+      <button type="button" onclick="generateText()">REGENERATE</button>
+      <button type="button" onclick="reset()">RESET</button>
+      <span id="mySpan">
+
+      </span>
+      <button type="button" onclick="getCustomText()">+Custom Text</button>
+      <input id="myslider" type="range" min="1" max="14" value="8" onclick="changeOrder()" onchange="changeOrder()" oninput="changeOrder()">
+      <span id="orderNumber" style="width:50px">8</span>
+      <p>
+        <span id="myRecipe" style="font-size:0.9rem;">*** Click the buttons above (+Avengers, for example) to get started ***</span>
+      </p>
+      <div id="textgoeshere" style="margin:30px;">
+        
+      </div>
+    </div>
+  </body>
+</html>
