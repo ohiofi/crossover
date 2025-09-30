@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
   width:100%;
+  background: #eeeeee;
 /*   overflow: hidden; */
   font-size:0.8rem;
 /*   padding-bottom:500px !important; */
@@ -9,6 +10,7 @@ html, body {
 
 div#textgoeshere{
   font-size:1.3rem;
+   background: #eeeeee;
 /*   margin-bottom:500px !important; */
 }
 
