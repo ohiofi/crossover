@@ -1,7 +1,7 @@
 class TextSource {
   constructor(_name) {
     this.title = _name;
-    this.url = "/texts/" + _name.replace(/ /g, "").toLowerCase() + ".txt";
+    this.url = "./texts/" + _name.replace(/ /g, "").toLowerCase() + ".txt";
     this.text = "";
     $.get(
       this.url,
